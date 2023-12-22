@@ -18,20 +18,21 @@
 
   <body>
     <div class="position-absolute top-50 start-50 translate-middle">
-      <h2>To play press any keyboard arrow</h2>
+      <h2>Press to play any keyboard arrow</h2>
 
       <br />
       <canvas id="canvas" width="256" height="256" style="background: black">
       </canvas>
       <br />
 
-      <h3 id="scoreDisplay"></h3>
+      <h5 id="scoreDisplay"></h5>
 
       <br />
 
-      <button onclick="resumeIt()">Resume</button>
       <button onclick="pauseIt()">Pause</button>
+      <button onclick="resumeIt()">Resume</button>
       <button onclick="totalScore()">Stop</button>
+      <br />
       <br />
       <p id="demo"></p>
     </div>
